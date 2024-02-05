@@ -1,0 +1,42 @@
+li{
+    padding: 0.4rem;
+    box-shadow: 1px 1px 4px #bdbdbd;
+    background-color: black;
+    border-radius: 0px 8px 8px 8px;
+    color: white;
+    width: fit-content;
+    margin-top: 4px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    position: fixed;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+#chatInput{
+    width: max-content;
+    background-color: #bdbdbd;
+    margin: 4px 10px;
+    width: 260px;
+}
+#chatInputContainer{
+    display: inline-flex;
+    background-color: #bdbdbd;
+    border-radius: 12px;
+}
